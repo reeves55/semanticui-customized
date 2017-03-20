@@ -1,4 +1,4 @@
-#semanticui-customized
+# semanticui-customized
 
 semanticui-customized是方便semantic-ui自定义样式的一个项目，代码是semantic-ui官方代码，按照以下步骤即可自定义semantic-ui的样式
 

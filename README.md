@@ -14,4 +14,4 @@ SemanticUI是一个Web样式库，其中包含了网页开发所用到的常用�
 
 ![SegmanticUI源代码组织架构](http://blog.reeveslee.com/static/SemanticUI_sourcecode-structure.png)
 
-说明：要想自定义SegmanticUI的主题样式，如果要自定义的属性在 definition/elements/***.less中没有使用变量的值，而是直接定义的，比如说color: #FEFE08 ，要修改这些属性的值，就需要直接编辑 definiton/elements/***.less中的属性值；如果要调整的元素的属性值在definition/elements/***.less中是一个变量，比如color:@white，修改这类属性的值，就需要修改元素所属主题下的elements/***.variables文件中对变量值的定义。如果需要更改元素所属主题，直接修改theme.config文件中元素的主题属性即可。
+说明：要想自定义SegmanticUI的主题样式，如果要自定义的属性在 ```definition/elements/***.less```中没有使用变量的值，而是直接定义的，比如说```color: #FEFE08``` ，要修改这些属性的值，就需要直接编辑 ```definiton/elements/***.less```中的属性值；如果要调整的元素的属性值在```definition/elements/***.less```中是一个变量，比如```color:@white```，修改这类属性的值，就需要修改元素所属主题下的```elements/***.variables```文件中对变量值的定义。如果需要更改元素所属主题，直接修改```theme.config```文件中元素的主题属性即可。
